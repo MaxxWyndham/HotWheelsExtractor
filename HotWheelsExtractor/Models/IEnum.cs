@@ -1,0 +1,10 @@
+﻿using System.ComponentModel;
+
+namespace HotWheels.Models
+{
+    [DisplayName("INTERNAL_ENUM")]
+    public abstract class IEnum
+    {
+        public List<string> Values { get; set; } = [];
+    }
+}
